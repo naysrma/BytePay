@@ -92,17 +92,19 @@ public class Main {
     public static void main(String[] args) {
         PayrollSystem payrollSystem = new PayrollSystem();
 
-        FullTimeEmployee emp1 = new FullTimeEmployee("Vaibhav", 101, 5000.0);
-        PartTimeEmployee emp2 = new PartTimeEmployee("Rishabh", 102, 300, 15.0);
-        FullTimeEmployee emp3 = new FullTimeEmployee("Siddhant", 103, 10000);
-        FullTimeEmployee emp4 = new FullTimeEmployee("Sushant Singh Rajput", 104, 45000);
-        PartTimeEmployee emp5 = new PartTimeEmployee("Siddharth Shukla", 105, 200, 25.0);
+        FullTimeEmployee emp1 = new FullTimeEmployee("Namya Sharma", 101, 5000.0);
+        PartTimeEmployee emp2 = new PartTimeEmployee("Naman Narula", 102, 300, 15.0);
+        FullTimeEmployee emp3 = new FullTimeEmployee("Vaibhav Raj", 103, 10000);
+        FullTimeEmployee emp4 = new FullTimeEmployee("Anjali Sharma", 104, 45000);
+        PartTimeEmployee emp5 = new PartTimeEmployee("Adrash Thakur", 105, 200, 25.0);
+        PartTimeEmployee emp6 = new PartTimeEmployee("Vikram Thakur", 106, 205, 27.0);
 
         payrollSystem.addEmployee(emp1);
         payrollSystem.addEmployee(emp2);
         payrollSystem.addEmployee(emp3);
         payrollSystem.addEmployee(emp4);
         payrollSystem.addEmployee(emp5);
+        payrollSystem.addEmployee(emp6);
 
         System.out.println("Initial Employee Details:");
         payrollSystem.displayEmployees();
